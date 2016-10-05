@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorAccent2"
+    >
+
+    <!-- Idioms id will be HIDDEN - used to pass to other activity -->
+    <TextView
+        android:id="@+id/kitapAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:visibility="visible" />
+
+
+    <!-- Entry data display -->
+    <TextView
+        android:id="@+id/yazar_adi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        />
+    <!-- the Meaning data display -->
+    <TextView
+        android:id="@+id/yayin_tarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="AYIRT"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
